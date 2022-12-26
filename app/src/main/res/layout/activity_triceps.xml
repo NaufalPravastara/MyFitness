@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FEFEFE">
+
+    <TextView
+        android:id="@+id/textpushup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:isScrollContainer="false"
+        android:text="Tutorial Gerakan"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:flow_horizontalBias="0.0199998"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.041" />
+
+    <TextView
+        android:id="@+id/gerakan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:isScrollContainer="false"
+        android:text="Tricep Dip on Chair"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:flow_horizontalBias="0.0199998"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.098" />
+
+    <VideoView
+        android:id="@+id/vwVideo"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="250dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textpushup"/>
+
+    <TextView
+        android:id="@+id/perintah"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:isScrollContainer="false"
+        android:text="Lakukan gerakan dengan baik dan benar, ulangi gerakan selama minimal 30 detik"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="23sp"
+        app:flow_horizontalBias="0.0199998"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.793" />
+
+    <Button
+        android:id="@+id/back"
+        android:layout_width="99dp"
+        android:layout_height="45dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="127dp"
+        android:layout_marginEnd="127dp"
+        android:layout_marginBottom="25dp"
+        android:text="KEMBALI"
+        android:textSize="13dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        app:backgroundTint="@color/abu"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.989" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

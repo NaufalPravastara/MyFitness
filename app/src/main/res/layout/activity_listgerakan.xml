@@ -1,0 +1,754 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/wallpaper"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".listgerakan"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginBottom="10dp"
+            android:background="@color/abu"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="300dp"
+                android:layout_marginLeft="9dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="Workout Video"
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="Tingkatkan Kebugaran Tubuh dengan Rutin Berolahraga. Minimal 7 menit dalam sehari!"
+                    android:textColor="@color/black"
+                    android:textSize="15dp" />
+
+
+
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="100dp"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:layout_width="95dp"
+                    android:layout_height="75dp"
+                    android:layout_marginRight="11dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/splash_icon" />
+            </RelativeLayout>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/lg1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/video1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:clickable="true"
+                android:focusable="true"
+                app:cardBackgroundColor="@color/abu"
+                app:cardCornerRadius="15dp"
+                app:cardElevation="15dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="98dp"
+                        android:layout_height="match_parent"
+                        android:layout_margin="10dp"
+                        android:src="@drawable/jumping_jacks"/>
+
+                    <LinearLayout
+                        android:layout_width="234dp"
+                        android:layout_height="76dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="175dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:text="Jumping Jack"
+                            android:textColor="@color/black"
+                            android:textSize="20dp"
+                            android:textStyle="bold" />
+                        <TextView
+                            android:layout_width="234dp"
+                            android:layout_height="32dp"
+                            android:layout_marginLeft="10dp"
+                            android:text="Lakukan minimal 1 menit"
+                            android:textColor="@color/black"
+                            android:textSize="15dp"/>
+
+                    </LinearLayout>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/lg2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/video2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:clickable="true"
+                android:focusable="true"
+                app:cardBackgroundColor="@color/abu"
+                app:cardCornerRadius="15dp"
+                app:cardElevation="15dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="98dp"
+                        android:layout_height="match_parent"
+                        android:layout_margin="10dp"
+                        android:src="@drawable/wall"/>
+
+                    <LinearLayout
+                        android:layout_width="234dp"
+                        android:layout_height="76dp"
+                        android:orientation="vertical">
+                        <TextView
+                            android:layout_width="148dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:text="Wall Sit"
+                            android:textColor="@color/black"
+                            android:textSize="20dp"
+                            android:textStyle="bold"/>
+                        <TextView
+                            android:layout_width="234dp"
+                            android:layout_height="32dp"
+                            android:layout_marginLeft="10dp"
+                            android:text="Lakukan minimal 1 menit"
+                            android:textColor="@color/black"
+                            android:textSize="15dp"/>
+
+                    </LinearLayout>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/lg3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/video3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:clickable="true"
+                android:focusable="true"
+                app:cardBackgroundColor="@color/abu"
+                app:cardCornerRadius="15dp"
+                app:cardElevation="15dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="98dp"
+                        android:layout_height="match_parent"
+                        android:layout_margin="10dp"
+                        android:src="@drawable/pushup"/>
+
+                    <LinearLayout
+                        android:layout_width="234dp"
+                        android:layout_height="76dp"
+                        android:orientation="vertical">
+                        <TextView
+                            android:layout_width="148dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:text="Push Up"
+                            android:textColor="@color/black"
+                            android:textSize="20dp"
+                            android:textStyle="bold"/>
+                        <TextView
+                            android:layout_width="234dp"
+                            android:layout_height="32dp"
+                            android:layout_marginLeft="10dp"
+                            android:text="Lakukan minimal 30 detik"
+                            android:textColor="@color/black"
+                            android:textSize="15dp"/>
+
+                    </LinearLayout>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/lg4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/video4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:clickable="true"
+                android:focusable="true"
+                app:cardBackgroundColor="@color/abu"
+                app:cardCornerRadius="15dp"
+                app:cardElevation="15dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="98dp"
+                        android:layout_height="match_parent"
+                        android:layout_margin="10dp"
+                        android:src="@drawable/abdominal_crunch"/>
+
+                    <LinearLayout
+                        android:layout_width="234dp"
+                        android:layout_height="76dp"
+                        android:orientation="vertical">
+                        <TextView
+                            android:layout_width="210dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:text="Abdominal Crunch"
+                            android:textColor="@color/black"
+                            android:textSize="20dp"
+                            android:textStyle="bold"/>
+                        <TextView
+                            android:layout_width="234dp"
+                            android:layout_height="32dp"
+                            android:layout_marginLeft="10dp"
+                            android:text="Lakukan minimal 30 detik"
+                            android:textColor="@color/black"
+                            android:textSize="15dp"/>
+
+                    </LinearLayout>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/lg5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/video5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:clickable="true"
+                android:focusable="true"
+                app:cardBackgroundColor="@color/abu"
+                app:cardCornerRadius="15dp"
+                app:cardElevation="15dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="98dp"
+                        android:layout_height="match_parent"
+                        android:layout_margin="10dp"
+                        android:src="@drawable/stepup_into_chair"/>
+
+                    <LinearLayout
+                        android:layout_width="234dp"
+                        android:layout_height="76dp"
+                        android:orientation="vertical">
+                        <TextView
+                            android:layout_width="210dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:text="Step-up Onto Chair"
+                            android:textColor="@color/black"
+                            android:textSize="20dp"
+                            android:textStyle="bold"/>
+                        <TextView
+                            android:layout_width="234dp"
+                            android:layout_height="32dp"
+                            android:layout_marginLeft="10dp"
+                            android:text="Lakukan minimal 30 detik"
+                            android:textColor="@color/black"
+                            android:textSize="15dp"/>
+
+                    </LinearLayout>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/lg6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/video6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:clickable="true"
+                android:focusable="true"
+                app:cardBackgroundColor="@color/abu"
+                app:cardCornerRadius="15dp"
+                app:cardElevation="15dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="98dp"
+                        android:layout_height="match_parent"
+                        android:layout_margin="10dp"
+                        android:src="@drawable/squat"/>
+
+                    <LinearLayout
+                        android:layout_width="234dp"
+                        android:layout_height="76dp"
+                        android:orientation="vertical">
+                        <TextView
+                            android:layout_width="148dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:text="Squat"
+                            android:textColor="@color/black"
+                            android:textSize="20dp"
+                            android:textStyle="bold"/>
+                        <TextView
+                            android:layout_width="234dp"
+                            android:layout_height="32dp"
+                            android:layout_marginLeft="10dp"
+                            android:text="Lakukan minimal 30 detik"
+                            android:textColor="@color/black"
+                            android:textSize="15dp"/>
+
+                    </LinearLayout>
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/lg7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/video7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:clickable="true"
+                android:focusable="true"
+                app:cardBackgroundColor="@color/abu"
+                app:cardCornerRadius="15dp"
+                app:cardElevation="15dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="98dp"
+                        android:layout_height="match_parent"
+                        android:layout_margin="10dp"
+                        android:src="@drawable/triceps_dip_on_chair"/>
+
+                    <LinearLayout
+                        android:layout_width="234dp"
+                        android:layout_height="76dp"
+                        android:orientation="vertical">
+                        <TextView
+                            android:layout_width="210dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:text="Tricep Dip on Chair"
+                            android:textColor="@color/black"
+                            android:textSize="20dp"
+                            android:textStyle="bold"/>
+                        <TextView
+                            android:layout_width="234dp"
+                            android:layout_height="32dp"
+                            android:layout_marginLeft="10dp"
+                            android:text="Lakukan minimal 30 detik"
+                            android:textColor="@color/black"
+                            android:textSize="15dp"/>
+
+                    </LinearLayout>
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/lg8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/video8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:clickable="true"
+                android:focusable="true"
+                app:cardBackgroundColor="@color/abu"
+                app:cardCornerRadius="15dp"
+                app:cardElevation="15dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="98dp"
+                        android:layout_height="match_parent"
+                        android:layout_margin="10dp"
+                        android:src="@drawable/plank"/>
+
+                    <LinearLayout
+                        android:layout_width="234dp"
+                        android:layout_height="76dp"
+                        android:orientation="vertical">
+                        <TextView
+                            android:layout_width="148dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:text="Plank"
+                            android:textColor="@color/black"
+                            android:textSize="20dp"
+                            android:textStyle="bold"/>
+                        <TextView
+                            android:layout_width="234dp"
+                            android:layout_height="32dp"
+                            android:layout_marginLeft="10dp"
+                            android:text="Lakukan minimal 30 detik"
+                            android:textColor="@color/black"
+                            android:textSize="15dp"/>
+
+                    </LinearLayout>
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/lg9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/video9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:clickable="true"
+                android:focusable="true"
+                app:cardBackgroundColor="@color/abu"
+                app:cardCornerRadius="15dp"
+                app:cardElevation="15dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="98dp"
+                        android:layout_height="match_parent"
+                        android:layout_margin="10dp"
+                        android:src="@drawable/highknees"/>
+
+                    <LinearLayout
+                        android:layout_width="234dp"
+                        android:layout_height="76dp"
+                        android:orientation="vertical">
+                        <TextView
+                            android:layout_width="210dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:text="High Kness Running in Place"
+                            android:textColor="@color/black"
+                            android:textSize="20dp"
+                            android:textStyle="bold"/>
+                        <TextView
+                            android:layout_width="234dp"
+                            android:layout_height="32dp"
+                            android:layout_marginLeft="10dp"
+                            android:text="Lakukan selama 30 detik"
+                            android:textColor="@color/black"
+                            android:textSize="15dp"/>
+
+                    </LinearLayout>
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/lg10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/video10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:clickable="true"
+                android:focusable="true"
+                app:cardBackgroundColor="@color/abu"
+                app:cardCornerRadius="15dp"
+                app:cardElevation="15dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="98dp"
+                        android:layout_height="match_parent"
+                        android:layout_margin="10dp"
+                        android:src="@drawable/lunge"/>
+
+                    <LinearLayout
+                        android:layout_width="234dp"
+                        android:layout_height="76dp"
+                        android:orientation="vertical">
+                        <TextView
+                            android:layout_width="148dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:text="Lunge"
+                            android:textColor="@color/black"
+                            android:textSize="20dp"
+                            android:textStyle="bold"/>
+                        <TextView
+                            android:layout_width="234dp"
+                            android:layout_height="32dp"
+                            android:layout_marginLeft="10dp"
+                            android:text="Lakukan selama 30 detik"
+                            android:textColor="@color/black"
+                            android:textSize="15dp"/>
+
+                    </LinearLayout>
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/lg11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/video11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:clickable="true"
+                android:focusable="true"
+                app:cardBackgroundColor="@color/abu"
+                app:cardCornerRadius="15dp"
+                app:cardElevation="15dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="98dp"
+                        android:layout_height="match_parent"
+                        android:layout_margin="10dp"
+                        android:src="@drawable/pushup_and_rotation"/>
+
+                    <LinearLayout
+                        android:layout_width="234dp"
+                        android:layout_height="76dp"
+                        android:orientation="vertical">
+                        <TextView
+                            android:layout_width="210dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:text="Push Up and Rotation"
+                            android:textColor="@color/black"
+                            android:textSize="20dp"
+                            android:textStyle="bold"/>
+                        <TextView
+                            android:layout_width="234dp"
+                            android:layout_height="32dp"
+                            android:layout_marginLeft="10dp"
+                            android:text="Lakukan selama 30 detik"
+                            android:textColor="@color/black"
+                            android:textSize="15dp"/>
+
+                    </LinearLayout>
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/lg12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/video12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:clickable="true"
+                android:focusable="true"
+                app:cardBackgroundColor="@color/abu"
+                app:cardCornerRadius="15dp"
+                app:cardElevation="15dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="98dp"
+                        android:layout_height="match_parent"
+                        android:layout_margin="10dp"
+                        android:src="@drawable/side_plank"/>
+
+                    <LinearLayout
+                        android:layout_width="234dp"
+                        android:layout_height="76dp"
+                        android:orientation="vertical">
+                        <TextView
+                            android:layout_width="148dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:text="Side Plank"
+                            android:textColor="@color/black"
+                            android:textSize="20dp"
+                            android:textStyle="bold"/>
+                        <TextView
+                            android:layout_width="234dp"
+                            android:layout_height="32dp"
+                            android:layout_marginLeft="10dp"
+                            android:text="Lakukan selama 30 detik"
+                            android:textColor="@color/black"
+                            android:textSize="15dp"/>
+
+                    </LinearLayout>
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+
+
+        <Button
+            android:id="@+id/back"
+            android:layout_width="99dp"
+            android:layout_height="45dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="153dp"
+            android:layout_marginEnd="145dp"
+            android:layout_marginBottom="25dp"
+            android:text="KEMBALI"
+            android:textStyle="bold"
+            android:textSize="13dp"
+            app:backgroundTint="@color/abu"
+            android:textColor="@color/black"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.989" />
+    </LinearLayout>
+
+</ScrollView>
